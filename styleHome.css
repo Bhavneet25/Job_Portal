@@ -1,0 +1,85 @@
+body {
+    background-image: url("https://wallpaperswide.com/download/blurry_blue_background_iii-wallpaper-1680x1050.jpg");
+    background-size: cover;      
+    color: white;                 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+    gap: 20px;                
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+header {
+    border: 3px solid GREY;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    background: darkslateblue;
+    padding: 15px;
+}
+
+
+div, section, footer {
+    border: 5px solid black;
+    width: 90%;
+    margin: 10px;
+    padding: 15px;
+    background: lightblue;
+    border-radius: 10px;
+}
+
+article {
+    border: 7px solid darkgreen;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    background: darkblue;
+    border-radius: 10px;
+}
+
+
+table {
+    margin: 10px auto;
+}
+
+table th, table td {
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+form {
+    margin: 10px;
+}
+
+form input, form select {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px ;
+    margin: 5px;
+    background: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
