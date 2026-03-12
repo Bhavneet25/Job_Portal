@@ -1,0 +1,50 @@
+body{
+font-family: Arial;
+text-align:center;
+background-color: #fcb69f;
+}
+
+h1{
+color:#4b0082;
+}
+
+input,select{
+padding:8px;
+margin:5px;
+border:2px solid #6a5acd;
+}
+
+button{
+padding:8px 12px;
+margin:5px;
+background:#ff6f61;
+color:white;
+border:none;
+}
+
+button:hover{
+background:#ff3b2e;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+padding:10px;
+margin:5px;
+border:2px solid #4facfe;
+background:#e0f7fa;
+display:flex;
+justify-content:space-between;
+}
+
+li:hover{
+background:#b2ebf2;
+}
+
+.done{
+text-decoration:line-through;
+color:#9c27b0;
+}
